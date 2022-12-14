@@ -1,8 +1,8 @@
-# Rebus Web App
+# Medas Digital Web App
 
-Frontend React app for Rebus.
+Frontend React app for Medas Digital.
 
-This project was started from [osmosis](https://github.com/osmosis-labs/osmosis-frontend) and [insync](https://github.com/OmniFlix/insync-juno).
+This project was started from Rebus.Web.App (they started from [osmosis](https://github.com/osmosis-labs/osmosis-frontend) and [insync](https://github.com/OmniFlix/insync-juno)).
 
 ## Install global dependencies
 
@@ -25,7 +25,7 @@ sudo npm install -g yarn
 First clone the repo;
 
 ```bash
-git clone https://github.com/rebuschain/rebus.app.web
+git clone https://github.com/oxygene76/medasdigital.app.web
 ```
 
 Then install project dependencies;
@@ -44,7 +44,7 @@ yarn build:css && yarn build
 
 This should produce `prod` folder with static assets.
 
-Currently, Rebus frontend app is SPA with entry point: `prod/index.html`
+Currently, Medas Digital frontend app is SPA with entry point: `prod/index.html`
 
 ## Development
 
@@ -94,6 +94,8 @@ To add new apps, it is necessary to add it in two places.
 - Add it to the `baseUrls` variable in the WalletConnect page component
 
 ## License
+
+This code was forked from RebusChain
 
 This work is dual-licensed under Apache 2.0 and MIT.
 You can choose between one of them if you use this work.
